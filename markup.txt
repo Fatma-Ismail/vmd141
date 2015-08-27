@@ -1,0 +1,58 @@
+<!-- Header: wraps heading 1 and three paragraphs -->
+
+	<!-- Heading 1 -->
+	VMD 141 - Web Production Level ll, Fall 2015
+	
+	<!-- Paragraph: make "Instructor:" bold -->
+	Instructor: Chris Clark
+
+	<!-- Paragraph: make "Email:" bold -->
+	Email: chris.clark@mail.ccsf.edu
+
+	<!-- Paragraph: make "Course website:" bold, make "http://insight.ccsf.edu" into a hyperlink targeting the same URL -->
+	Course website: http://insight.ccsf.edu
+
+<!-- Main: wraps sections and aside -->
+
+	<!-- Section: wraps heading 2 and paragraph -->	
+
+		<!-- Heading 2 -->
+		Course Overview
+
+		<!-- Paragraph -->
+		This is a hands-on, introductory-level course covering production techniques and best practices for front-end web development. Students will learn how to create well-structured, standards compliant web documents using Hypertext Markup Language (HTML) and Cascading Style Sheets (CSS) to create user-friendly interfaces for a range of web enabled devices. Topics will include employing efficient workflow practices, available tools and resources for web developers, current production techniques, and more.
+
+	<!-- Section: wraps heading 2, heading 3, and paragraph -->
+		
+		<!-- Heading 2 -->
+		Projects
+        
+		<!-- Heading 3: link to "simplyflat/index.html" -->
+		Agency
+
+		<!-- Paragraph -->
+		A clean, stylish, one page portfolio theme
+
+	<!-- Aside: wraps heading 4 and unordered list -->
+
+		<!-- Heading 4 -->
+		Course Resources
+		
+		<!-- Unordered list: wraps list items -->
+
+			<!-- List item: link to "http://codepen.io" -->
+			CodePen
+
+			<!-- List item: link to "http://www.smashingmagazine.com" -->
+			Smashing Magazine
+
+			<!-- List item: link to "http://www.delicious.com/modified65" -->
+			Chris' bookmarks at Delicious.com
+
+<!-- Footer: wraps paragraph -->
+
+	<!-- Paragraph -->
+	VMD 141 - Web Production Level ll, Fall 2015
+
+	<!-- Paragraph -->
+	Visual Media Design Department, City College of San Francisco
