@@ -123,4 +123,43 @@ padding-top: 20px;
 padding-bottom: 30px;
 }
 
+.img-circle{
+Set border-radius:50%;
+}
+
+.timeline-panel{
+padding-left:100px;
+Set width:40%;
+float:left;
+text-align:right;
+}
+
+
+.timeline-image{
+width:174px ;
+height: 174px;
+position:absolute;
+left:50%;
+z-index:100;
+border-radius:100%;
+border:9px;
+Set background-color:#fdd134;
+}
+
+.timeline-inverted > .timeline-panel {
+padding-right:100px;
+float:right;
+text-align:left;
+}
+
+.timeline > li:after {
+clear:both;
+}
+
+.timeline > li:before,  
+.timeline > li:after {
+content:"";
+display:table;
+}
+
 
