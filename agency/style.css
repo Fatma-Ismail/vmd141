@@ -123,6 +123,9 @@ padding-top: 20px;
 padding-bottom: 30px;
 }
 
+
+/*Timeline*/
+
 .img-circle{
 Set border-radius:50%;
 }
@@ -142,12 +145,13 @@ position:absolute;
 left:50%;
 z-index:100;
 border-radius:100%;
-border:9px;
-Set background-color:#fdd134;
+border:9px solid #f1f1f1;
+background-color:#fdd134;
 }
 
 .timeline-inverted > .timeline-panel {
 padding-right:100px;
+padding-left: 0px;
 float:right;
 text-align:left;
 }
@@ -162,4 +166,14 @@ content:"";
 display:table;
 }
 
+
+ .timeline:before{
+position: absolute;
+top:0;
+bottom:0;
+left:50%;
+content:"";
+width:2px;
+background-color: #f1f1f1;
+ }
 
