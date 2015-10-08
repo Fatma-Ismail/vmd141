@@ -157,6 +157,9 @@ float:right;
 text-align:left;
 }
 
+.timeline > li {
+margin-bottom:94px;
+}
 .timeline > li:after {
 clear:both;
 }
