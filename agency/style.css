@@ -127,12 +127,12 @@ padding-bottom: 30px;
 /*Timeline*/
 
 .img-circle{
-Set border-radius:50%;
+border-radius:50%;
 }
 
 .timeline-panel{
 padding-left:100px;
-Set width:40%;
+width:40%;
 float:left;
 text-align:right;
 }
