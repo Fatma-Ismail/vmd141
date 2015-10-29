@@ -190,7 +190,7 @@ footer {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: yellow;
+    background: #ddbb45;
     opacity: 0;
     color: rgb(254, 209, 54);
 }
@@ -233,6 +233,7 @@ h4 {
 
 a {
     color: #ffffff;
+    text-decoration: none;
 }
 
 nav {
@@ -245,14 +246,25 @@ header {
 
 .logo {
     color: #fed136;
+    font-family: 'Kaushan Script', cursive;
+font-size:28px;
+
 }
 
 .intro-lead-in {
     color: white;
+    font-family: 'Droid Serif', serif;
+font-size:36px;
+font-style:italic;
 }
 
 .intro-heading {
     color: white;
+    font-family: 'Montserrat', sans-serif;
+font-size:56px;
+text-transform:uppercase;
+font-weight:700;
+
 }
 
 .btn {
@@ -263,6 +275,11 @@ header {
     padding: 25px 50px;
     text-align: center;
     border-radius: 5px;
+    font-family:'Montserrat', sans-serif;
+font-size:16px;
+font-weight:700;
+text-transform:uppercase;
+
 }
 
 #portfolio,
@@ -282,5 +299,88 @@ color:#ffffff;
 
 footer a{
 color:#fed136;
+}
+
+body{
+font-family: 'Roboto Slab', sans-serif;
+
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+font-family: 'Montserrat', sans-serif;
+text-transform:uppercase;
+font-weight:700
+}
+
+h4{
+font-size:18px;
+
+}
+
+p{
+font-size:14px;
+line-height:1.75;
+}
+
+.navbar li a {
+font-family:'Montserrat', sans-serif;
+text-transform:uppercase;
+letter-spacing: 1px;
+ }
+
+.section-heading{
+font-size:33px;
+}
+
+.section-subheading{
+font-family:'Droid Serif', serif;
+font-size:16px;
+text-transform:none;
+font-style:normal;
+}
+
+.portfolio-caption p{
+font-family:'Droid Serif', serif;
+font-size:12px;
+font-style:italic;
+}
+
+.subheading{
+text-transform:none;
+}
+
+.team-member h4{
+text-transform:none;
+}
+
+ .social-buttons li a {
+display:block;
+background-color:black;
+height:40px;
+width:40px;
+border-radius:100%;
+font-size:20px;
+line-height:40px;
+ }
+
+.large{
+font-size:15px;
+}
+
+.copyright{
+font-family:'Montserrat',sans-serif;
+}
+
+.quicklinks{
+font-family:'Montserrat',sans-serif;
+}
+
+.text-primary{
+color: #fed136;
 }
 
