@@ -185,7 +185,7 @@ footer {
     display: block;
 }
 
-.portfolio-hover {
+.portfolio-hover{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -193,6 +193,8 @@ footer {
     background: #ddbb45;
     opacity: 0;
     color: rgb(254, 209, 54);
+    text-align: center;
+    
 }
 
 .portfolio-hover:hover {
@@ -201,6 +203,7 @@ footer {
 
 .portfolio-caption {
     text-align: center;
+    background-color:white;
 }
 
 
@@ -224,7 +227,7 @@ h2 {
 }
 
 h3 {
-    color: #000000;
+    color: #ffffff;
 }
 
 h4 {
@@ -283,6 +286,7 @@ text-transform:uppercase;
 -moz-transition:0.3s;
 -ms-transition:0.3s;
 transition:0.3s;
+    border: 0 none;
 
 
 }
@@ -298,7 +302,6 @@ transition:0.3s;
 
 
 #contact h2 {
-background-color:#000000;
 color:#ffffff;
 }
 
@@ -407,3 +410,45 @@ background-color:#fed136;
 text-decoration:underline;
 }
 
+
+header{
+background-image: url('../img/header-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#contact{
+background-color: #212121;
+    background-image: url('../img/map-image.png');
+    background-position: 500px center;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+
+}
+
+#contact .section-heading{
+
+}
+
+.form-group{
+margin-bottom:28px;
+}
+
+.form-control {
+display:block;
+width:100%;
+padding:21px;
+border: 1px solid #767676;
+border-radius:3px;
+text-transform: uppercase;
+}
+
+textarea.form-control{
+min-height:52px;
+}
+
+.portfolio-hover .fa-plus{
+    margin-top: 100px;
+}
+
+ 
