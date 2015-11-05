@@ -412,14 +412,14 @@ text-decoration:underline;
 
 
 header{
-background-image: url('../img/header-bg.jpg');
+background-image: url('img/header-bg.jpg');
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 #contact{
 background-color: #212121;
-    background-image: url('../img/map-image.png');
+    background-image: url('img/map-image.png');
     background-position: 500px center;
     background-repeat: no-repeat;
     background-attachment:scroll;
