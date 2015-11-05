@@ -279,6 +279,11 @@ font-weight:700;
 font-size:16px;
 font-weight:700;
 text-transform:uppercase;
+-webkit-transition:0.3s;
+-moz-transition:0.3s;
+-ms-transition:0.3s;
+transition:0.3s;
+
 
 }
 
@@ -382,5 +387,23 @@ font-family:'Montserrat',sans-serif;
 
 .text-primary{
 color: #fed136;
+}
+
+ .navbar li a:hover{
+color:#fed136;
+ }
+
+.btn:hover {
+background-color:#ddbb45;
+
+}
+
+.social-buttons li a:hover{ 
+background-color:#fed136;
+
+}
+
+.quicklinks a:hover{ 
+text-decoration:underline;
 }
 
