@@ -149,7 +149,7 @@ left:0;
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 40%;
+    left: 40px;
     content: " ";
     width: 2px;
     background-color: #f1f1f1;
@@ -419,7 +419,7 @@ textarea.form-control {
 
 .menu-link {
     position: absolute;
-    top: -40px;
+    top: 40px;
     right: 30px;
     color: #fed136;
     text-transform: uppercase;
