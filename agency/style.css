@@ -101,7 +101,7 @@ footer {
 
 .timeline-panel {
     padding-left: 100px;
-    width: 40px;
+ 
     width:100%;
 float:right;
 text-align:left;
@@ -522,6 +522,7 @@ left:50%;
     
     .timeline-panel{
     padding-left:30px;
+    width:40%;
     }
     
      .timeline-inverted > .timeline-panel {
